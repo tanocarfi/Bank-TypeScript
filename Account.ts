@@ -15,5 +15,6 @@ export class Account {
       otherAccount.credit += howMoney;
       return true;
     }
+    // there is other testing comment
   }
 }
