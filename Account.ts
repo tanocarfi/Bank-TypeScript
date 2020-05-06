@@ -6,6 +6,7 @@ export class Account {
     public credit = 2000
   ) {}
   // this is a comment for testing
+  // hello
 
   sendMoney(howMoney: number, otherAccount: Account): boolean {
     if (howMoney > this.credit) {
