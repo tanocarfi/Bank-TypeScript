@@ -5,6 +5,7 @@ export class Account {
     public surname: string,
     public credit = 2000
   ) {}
+  // this is a comment for testing
 
   sendMoney(howMoney: number, otherAccount: Account): boolean {
     if (howMoney > this.credit) {
